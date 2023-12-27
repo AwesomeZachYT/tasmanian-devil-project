@@ -23,7 +23,15 @@ h1 {
 
 h2 {
   font-size: 32pt;
-  line-height: 15px;
+
+  height: fit-content;
+  overflow: hidden;
+  text-overflow: clip;
+}
+
+p {
+  font-family: "Crete Round", sans-serif;
+  font-size: 13pt;
 }
 
 .region {
