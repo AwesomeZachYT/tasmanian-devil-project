@@ -11,6 +11,18 @@ img {
   display: block;
 }
 
+.region {
+  display: block;
+}
+
+.medium_region {
+  height: 40vh;
+}
+
+.large_region {
+  height: 100vh;
+}
+
 .banner {
   position: relative;
 }
@@ -85,6 +97,10 @@ img {
     height: 100vh;
     border-radius: 0px;
   }
+}
+
+@media screen and (max-width: 870px) {
+  .medium_region { height: 80vh }
 }
 
 @media screen and (max-width: 480px) {
