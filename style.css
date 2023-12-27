@@ -5,9 +5,10 @@ html {
 body {
   width: 100vw;
   margin: 0px;
+}
 
-div {
-  display: inline;
+img {
+  display: block;
 }
 
 .banner {
