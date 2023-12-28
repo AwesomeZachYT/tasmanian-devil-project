@@ -53,6 +53,12 @@ p {
 
 .horizontal_block {
   display: flex;
+  justify-content: center;
+}
+
+.flexbox_text {
+  position: relative;
+  top: -35px;
 }
 
 
@@ -153,6 +159,11 @@ p {
 @media screen and (max-width: 870px) {
   .small_region { height: 60vh }
   .medium_region { height: 80vh }
+  .mobile_vertical_block { flex-direction: column;}
+  .flexbox_text {
+    top: 0;
+    text-align: center;
+  }
 }
 
 @media screen and (max-width: 480px) {
