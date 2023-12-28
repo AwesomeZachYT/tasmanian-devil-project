@@ -156,7 +156,7 @@ p {
   }
 }
 
-@media screen and (max-width: 870px) {
+@media screen and (max-width: 1174px) {
   .mobile_vertical_block { flex-direction: column;}
   .flexbox_text {
     top: 0;
