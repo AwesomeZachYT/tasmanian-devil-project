@@ -58,7 +58,6 @@ p {
 
 .flexbox_text {
   position: relative;
-  top: -35px;
 }
 
 
@@ -158,7 +157,9 @@ p {
 
 @media screen and (max-width: 1174px) {
   .medium_region { height: 80vh }
-  .mobile_vertical_block { flex-direction: column;}
+  .mobile_vertical_block { flex-direction: column; align-items: center;}
+  .mobile_vertical_block > img { height: 356.4px; }
+
   .flexbox_text {
     top: 0;
     text-align: center;
