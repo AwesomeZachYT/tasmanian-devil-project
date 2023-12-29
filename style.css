@@ -94,9 +94,9 @@ p {
 }
 
 
-.primary-button {
+.primary-button-1, .primary-button-2 {
+  position: relative;
   display: inline-block;
-  line-height: 55px;
 
   font-family: "Roboto", sans-serif;
   font-weight: 100;
@@ -111,65 +111,13 @@ p {
   transition: background-color 125ms, color 125ms;
 }
 
-.primary-button:hover {
-  background-color: #35373b;
-  color: white;
-}
+.primary-button-1:hover, .primary-button-2:hover { color: white; }
 
-.learn-more {
-  font-size: 31px;
-  font-family: "Rubik", sans-serif;
-  font-weight: 300;
-  position: relative;
-  text-decoration: none;
-  color: #000;
-}
+.primary-button-2 { border-style: solid; }
 
-.learn-more::before, .learn-more::after {
-  position: absolute;
-  bottom: 0;
-  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
-}
+.primary-button-1:hover { background-color: #35373b; }
 
-.learn-more::before {
-  content: "";
-  left: 0;
-  width: 100%;
-  height: 2px;
-  background-color: #000;
-  transform: scaleX(0);
-  transform-origin: top left;
-}
-
-.learn-more::after {
-  content: ">";
-  right: -20px;
-  opacity: 0;
-  transform: translateX(-10px);
-}
-
-.learn-more:hover::before {
-  transform: scaleX(1);
-}
-
-.learn-more:hover::after {
-  opacity: 1;
-  transform: translateX(0);
-}
-
-.learn-more:hover::before {
-  transform: scaleX(1);
-}
-
-.learn-more:hover::after {
-  opacity: 1;
-  transform: translateX(0);
-}
-
-.learn-more:focus {
-  background-color: black;
-  color: white;
-}
+.primary-button-2:hover { background-color: black; border-color: black; }
 
 
 .horizontal-center {
@@ -208,7 +156,15 @@ p {
   }
 }
 
-@media screen and (max-width: 1174px) {
+@media screen and (max-width: 870px) {
+  .small-region { height: 60vh }
+}
+
+@media screen and (max-width: 480px) {
+  .banner-text { font-size: 48pt; }
+}
+
+@media screen and (max-aspect-ratio: 7/6) {
   .medium-region { height: 80vh }
   .mobile-vertical-block { flex-direction: column; align-items: center;}
   .mobile-vertical-block > img { height: 356.4px; min-height: 30vw;}
@@ -225,12 +181,4 @@ p {
   .flexbox-text > p {
     font-size: 11pt;
   }
-}
-
-@media screen and (max-width: 870px) {
-  .small-region { height: 60vh }
-}
-
-@media screen and (max-width: 480px) {
-  .banner-text { font-size: 48pt; }
 }
