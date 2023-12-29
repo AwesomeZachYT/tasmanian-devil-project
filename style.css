@@ -218,6 +218,10 @@ p {
     text-align: center;
   }
 
+  /*.mobile-vertical-block > .flexbox-text:nth-child(2) {
+    top: -25px;
+  }*/
+
   .flexbox-text > p {
     font-size: 11pt;
   }
