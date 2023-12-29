@@ -36,25 +36,25 @@ p {
   display: block;
 }
 
-.small_region {
+.small-region {
   height: 40vh;
 }
 
-.medium_region {
+.medium-region {
   height: 50vh;
 }
 
-.large_region {
+.large-region {
   height: 100vh;
 }
 
 
-.horizontal_block {
+.horizontal-block {
   display: flex;
   justify-content: center;
 }
 
-.flexbox_text {
+.flexbox-text {
   position: relative;
 }
 
@@ -63,7 +63,7 @@ p {
   position: relative;
 }
 
-.banner_main_content {
+.banner-main-content {
   width: calc(100vw - 25.4%);
 
   left: 25.4%;
@@ -71,12 +71,12 @@ p {
   position: relative;
 }
 
-.banner_text {
+.banner-text {
   z-index: 1;
   position: relative;
 }
 
-.banner_image {
+.banner-image {
   left: 50%;
   top: 20px;
   transform: translateX(-50%);
@@ -94,7 +94,7 @@ p {
 }
 
 
-.primary_button {
+.primary-button {
   display: inline-block;
   line-height: 55px;
 
@@ -111,20 +111,24 @@ p {
   transition: background-color 125ms, color 125ms;
 }
 
-.primary_button:hover {
+.primary-button:hover {
   background-color: #35373b;
   color: white;
 }
 
+.learn-more {
+  font-family: "Roboto Mono", monospace;
+}
 
-.horizontal_center {
+
+.horizontal-center {
   position: relative;
   left: 50%;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
 }
 
-.vertical_center {
+.vertical-center {
   position: relative;
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -140,13 +144,13 @@ p {
 
 
 @media screen and (max-width: 1270px) {
-  .banner_main_content {
+  .banner-main-content {
     width: calc(100vw - 10%);
     left: 10%;
     top: 185px;
   }
 
-  .banner_image {
+  .banner-image {
     top: 0px;
     height: 100vh;
     border-radius: 0px;
@@ -154,24 +158,24 @@ p {
 }
 
 @media screen and (max-width: 1174px) {
-  .medium_region { height: 80vh }
-  .mobile_vertical_block { flex-direction: column; align-items: center;}
-  .mobile_vertical_block > img { height: 356.4px; min-height: 30vw;}
+  .medium-region { height: 80vh }
+  .mobile-vertical-block { flex-direction: column; align-items: center;}
+  .mobile-vertical-block > img { height: 356.4px; min-height: 30vw;}
 
-  .flexbox_text {
+  .flexbox-text {
     top: 0;
     text-align: center;
   }
 
-  .flexbox_text > p {
+  .flexbox-text > p {
     font-size: 11pt;
   }
 }
 
 @media screen and (max-width: 870px) {
-  .small_region { height: 60vh }
+  .small-region { height: 60vh }
 }
 
 @media screen and (max-width: 480px) {
-  .banner_text { font-size: 48pt; }
+  .banner-text { font-size: 48pt; }
 }
