@@ -5,16 +5,13 @@ body {
   margin: 0px;
 }
 
-h1, div {
-  overflow-y: hidden;
-}
-
 img {
   display: block;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Source Sans 3", sans-serif;
+  overflow-y: hidden;
 }
 
 h1 {
