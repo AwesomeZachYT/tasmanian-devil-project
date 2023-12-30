@@ -35,6 +35,7 @@ p {
 
 .region {
   display: block;
+  overflow: hidden;
 }
 
 .small-region {
