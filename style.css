@@ -1,5 +1,9 @@
 * { overflow-x: hidden; }
 
+footer > * {
+  color: white;
+}
+
 body {
   width: 100vw;
   margin: 0px;
@@ -31,6 +35,16 @@ h2 {
 p {
   font-family: "Crete Round", sans-serif;
   font-size: 13pt;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 3px;
+}
+
+li {
+  /* font-family: "Martel", serif; */
+  font-size: 20px;
 }
 
 .region {
