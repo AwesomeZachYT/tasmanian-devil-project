@@ -1,5 +1,13 @@
 * { overflow-x: hidden; }
 
+header {
+  width: 100%;
+  height: 100px;
+  background-color: #404040;
+
+  z-index: 2;
+}
+
 footer > * {
   color: white;
 }
@@ -45,6 +53,11 @@ ul {
 li {
   /* font-family: "Martel", serif; */
   font-size: 20px;
+}
+
+li > a {
+  color: white;
+  text-decoration: none;
 }
 
 .region {
