@@ -58,7 +58,8 @@ ul {
 }
 
 li {
-  /* font-family: "Martel", serif; */
+  overflow: visible;
+  font-family: "Ubuntu", sans-serif;
   font-size: 20px;
 }
 
@@ -67,11 +68,20 @@ li > a {
   text-decoration: none;
 }
 
+.horizontal-list-item {
+  float: left;
+}
+
+.horizontal-list-text {
+  font-size: 40px;
+  margin: 75% 0;
+}
+
 .main-logo {
   height: 180px;
 
   top: 10px;
-  left: 20px;
+  left: 10%;
   position: relative;
 }
 
