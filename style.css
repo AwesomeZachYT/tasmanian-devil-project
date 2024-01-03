@@ -1,24 +1,13 @@
 * { overflow-x: hidden; }
 
-.header-outside {
+.header {
   overflow: clip;
 
-  position: relative;
-  top: -100px;
+  position: absolute;
+  top: 0;
 
   width: 100%;
   height: 200px;
-  background-color: #404040;
-
-  z-index: 2;
-}
-
-.header-inside {
-  position: relative;
-  top: 100px;
-
-  width: 100%;
-  height: 100px;
   background-color: #404040;
 
   z-index: 2;
