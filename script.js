@@ -1,4 +1,4 @@
-var header = document.getElementsByClassName("header")[0];
+/*var header = document.getElementsByClassName("header")[0];
 var main_logo = document.getElementsByClassName("main-logo")[0];
 
 document.addEventListener("scroll", function() {
@@ -9,3 +9,4 @@ document.addEventListener("scroll", function() {
     header.style.position = "absolute";
   }
 });
+*/
