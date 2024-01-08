@@ -35,7 +35,6 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
     font-size: 64pt;
     line-height: 68pt;
-    color: white;
 }
 
 h2 {
@@ -132,6 +131,7 @@ li > a {
 .banner-text {
   z-index: 1;
   position: relative;
+  color: white;
 }
 
 .banner-image {
@@ -149,6 +149,17 @@ li > a {
   -webkit-filter: brightness(66%) grayscale(15%);
 
   z-index: 0;
+}
+
+
+.blog-element {
+  display: block;
+
+  width: 60vw;
+  height: 500px;
+
+  border-style: solid;
+  border-color: #878787;
 }
 
 
